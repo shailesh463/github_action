@@ -1,0 +1,14 @@
+name : "first work flow"
+on : 
+  push :
+    branches: [ main ]
+jobs:
+   first:
+    runs-on: ubuntu-latest
+     
+    steps:
+        - name: Greeting
+          run: echo "hello yaar"
+   
+  
+
